@@ -1,0 +1,39 @@
+h1
+{font-size: 48px;
+ text-transform: uppercase;
+ font-family: sans-serif;
+color: #F656bd;
+}
+h2
+{font-size: 20px;
+ text-transform: uppercase;
+ font-family: sans-serif;
+color: #56bbf6;
+}
+h3
+{font-size: 18px;
+ text-transform: uppercase;
+ font-family: sans-serif;
+color: #5656bd;
+}
+h4
+{font-size: 18px;
+ text-transform: uppercase;
+ font-family: sans-serif;
+color: #5656bd;
+}
+p
+{
+	font-size: 16px;
+    font-family: sans-serif;
+    color: #0000FF;
+}
+p#descricao-curso
+{
+    font-size: 26px;
+}
+p.texto
+{
+    font-size: 20px;
+    color: #FF0000;
+}

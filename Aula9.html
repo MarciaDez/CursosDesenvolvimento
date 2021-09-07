@@ -1,0 +1,39 @@
+<!doctype html>
+	<html>
+	<head>
+		<i><title>Trabalhando com Formulários - Pedido de Pizza</title></i>
+	</head>
+
+	<body>
+			<h1>Pedido de Pizza</h1>
+			<form method="get">
+				<p><label>Nome do Cliente: <input name="Nome" required placeholder="Seu nome"></label></p>
+				<p><label>Telefone: <input type=tel name="Telefone" placeholder="Telefone"></label></p>
+				<p><label>E-mail: <input type=email name="email" placeholder="email"></label></p>
+				<fieldset>
+					<legend> Tamanho da Pizza</legend>
+					<p><label> <input type=radio name="tamanho" required value="pequena"> Pequena </label></p>
+					<p><label> <input type=radio name="tamanho" required value="média"> Media </label></p>
+					<p><label> <input type=radio name="tamanho" required value="grande"> Grande </label></p>
+				</fieldset>
+				<fieldset>
+					<legend> Extras</legend>
+					<p><label> <input type=checkbox name="extras" value="bacon"> Bacon </label></p>
+					<p><label> <input type=checkbox name="extras" value="cheese"> Queijo </label></p>
+					<p><label> <input type=checkbox name="extras" value="onion"> Cebola </label></p>
+					<p><label> <input type=checkbox name="extras" value="mushroom"> Cogumelos </label></p>
+				</fieldset>
+				<fieldset>
+					<p><label>Hora da entrega: <input type=time min:"11:00" max="23:00" step="900" name="entrega"required placeholder="Hora Entrega"></label></p>
+					<p><label>Dia da entrega: <input type=date name="data"required></label></p>
+					<p><label>Instruções de entrega: <textarea name="comentarios" maxlength=1000></textarea></label></p>
+					<p><button>Fazer pedido</button></p>
+					
+				</fieldset>
+				
+			</form>
+
+
+	</body>
+
+	</html>
